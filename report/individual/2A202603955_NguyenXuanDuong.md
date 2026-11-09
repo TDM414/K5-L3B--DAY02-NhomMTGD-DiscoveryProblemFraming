@@ -73,7 +73,13 @@ Quy trình nháp hiện tại:
 
 Quy trình nháp hiện tại:
 
-```text
+```[1. Xác định chủ đề: 5'] → [2. Tìm tài liệu trên Google Scholar: 15'] → [3. Tải và phân loại tài liệu: 10']
+
+  → [4. Đọc nội dung từng tài liệu: 30'] → [5. Ghi chú và tổng hợp thông tin: 30'] ← BOTTLENECK
+
+  → [6. Kiểm tra và hoàn thiện nội dung: 10']
+
+Tổng thời gian: 100 phút.
 
 ```
 
