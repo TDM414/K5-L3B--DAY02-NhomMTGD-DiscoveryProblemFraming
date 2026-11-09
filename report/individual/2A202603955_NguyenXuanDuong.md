@@ -18,14 +18,12 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng 
 
 | # | Lăng kính | Job Story: Khi… tôi muốn… để… | Ai chịu ảnh hưởng? | Dấu hiệu thật (thời gian, tần suất, số người, bằng chứng) |
 |---:|---|---|---|---|
-| 1 | | | | |
+| 1 | Lặp lại | Khi có nhiều deadline từ các môn học khác nhau, tôi muốn tổng hợp tất cả vào một nơi để không bỏ sót bài tập. | Dương | Xảy ra hằng tuần; phải kiểm tra nhiều nhóm Zalo, Discord và Google Classroom. |
 | 2 | | | | |
 | 3 | | | | |
 | 4 | | | | |
 | 5 | | | | |
 | 6 | | | | |
-| 7 | | | | |
-| 8 | | | | |
 
 **Nếu có dùng AI để gợi ý thêm:** ý nào AI gợi ý mà bạn giữ lại, ý nào bỏ và vì sao.
 
