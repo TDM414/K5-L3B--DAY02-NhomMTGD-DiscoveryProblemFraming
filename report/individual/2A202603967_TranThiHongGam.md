@@ -7,11 +7,11 @@
 
 ## 1. Thông tin học viên
 
-- Họ tên:
-- MSSV:
+- Họ tên: Trần Thị Hồng Gấm
+- MSSV: 2A202603967
 - Email trường (không bắt buộc, repo có thể để public):
-- Tên nhóm:
-- Link repo nhóm:
+- Tên nhóm: NhomMTGD
+- Link repo nhóm:https://github.com/TDM414/K5-L3B--DAY02-NhomMTGD-DiscoveryProblemFraming
 
 ---
 
@@ -282,4 +282,4 @@ Nếu có cơ hội làm lại bài lab từ đầu, tôi sẽ tiến hành ph�
 
 - Rob Fitzpatrick, *The Mom Test: How to talk to customers & learn if your business is a good idea when everyone is lying to you*.
 - Teresa Torres, *Continuous Discovery Habits: Discover Products that Create Customer Value and Business Value*, Product Talk LLC.
-- Google PAIR (People + AI Research Guidebook): [https://pair.withgoogle.com/guidebook](https://pair.withgoogle.com/guidebook)
+
