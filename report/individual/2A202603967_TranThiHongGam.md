@@ -4,21 +4,15 @@
 > Template chi tiết và prompt mẫu cho từng mục: [docs/01-worksheet.md](../../docs/01-worksheet.md).
 > Mỗi thành viên một file trong `report/individual/` trên repo nhóm: copy template này thành file mới, điền, rồi commit bằng tài khoản GitHub của bạn. Không viết hộ người khác.
 
-Điều hành sản xuất tại nhà máy lắp ráp ô tô điện
 
-Nhân vật: Minh, 28 tuổi, là nhân viên điều phối sản xuất (Production Coordinator) tại một nhà máy lắp ráp ô tô điện giả định, được xây dựng dựa trên đặc điểm sản xuất của VinFast. Nhà máy vận hành nhiều dây chuyền và trạm lắp ráp, thực hiện các công việc như lắp đặt hệ thống điện, nội thất, bộ pin và kiểm tra chất lượng xe.
-
-Bối cảnh: Mỗi ca sản xuất, Minh cần theo dõi tiến độ lắp ráp, tình trạng thiết bị, khả năng cung ứng linh kiện và các sự cố phát sinh trên dây chuyền để đảm bảo kế hoạch sản xuất được thực hiện đúng tiến độ.
-
-Khi một trạm lắp ráp gặp sự cố thiết bị, thiếu linh kiện hoặc mất nhiều thời gian hơn chu kỳ tiêu chuẩn, hoạt động tại các trạm liên quan có nguy cơ bị ảnh hưởng. Minh cần xác định nguyên nhân, đánh giá mức độ tác động và phối hợp với bộ phận sản xuất, bảo trì, kho vật tư để xử lý.
 
 ## 1. Thông tin học viên
 
-- Họ tên:
-- MSSV:
+- Họ tên: Trần Thị Hồng Gấm
+- MSSV:2A202603967
 - Email trường (không bắt buộc, repo có thể để public):
-- Tên nhóm:
-- Link repo nhóm:
+- Tên nhóm:NhomMTGD
+- Link repo nhóm:https://github.com/TDM414/K5-L3B--DAY02-NhomMTGD-DiscoveryProblemFraming
 
 ---
 
