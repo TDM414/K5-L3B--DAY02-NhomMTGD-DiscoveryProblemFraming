@@ -66,26 +66,27 @@ Tổng thời gian: 100 phút.
 
 | Trường | Nội dung |
 |---|---|
-| Job Story | Khi …, tôi muốn …, để … |
-| Actor | |
-| Thời điểm / bối cảnh | |
-| Quy trình hiện tại (3–7 bước) | |
-| Bottleneck (bước nào, mất bao nhiêu phút) | |
-| Impact (nếu không giải thì sao) | |
-| Success metric (baseline → target) | |
-| Phương án không dùng AI | |
-| Giả thuyết về AI (nếu có) | |
-| Cảm nhận nhanh | No AI / Rule / Workflow / Agent / Chưa biết |
+| Job Story | Khi có nhiều bài tập từ các môn học, tôi muốn quản lý deadline tập trung để không bỏ sót nhiệm vụ. |
+| Actor | Sinh viên năm cuối. |
+| Thời điểm / bối cảnh | Đầu tuần và trong các giai đoạn có nhiều bài tập. |
+| Quy trình hiện tại (3–7 bước) | 1. Nhận thông báo bài tập. 2. Ghi nhớ deadline. 3. Kiểm tra Google Classroom. 4. Tự sắp xếp lịch làm bài. |
+| Bottleneck (bước nào, mất bao nhiêu phút) | Kiểm tra nhiều nền tảng và cập nhật deadline thủ công. |
+| Impact (nếu không giải thì sao) | Dễ quên nhiệm vụ, nộp bài muộn. |
+| Success metric (baseline → target) | Số deadline bị bỏ sót: 2 lần/tháng → 0 lần/tháng. |
+| Phương án không dùng AI | Google Calendar hoặc Google Sheets. |
+| Giả thuyết về AI (nếu có) | AI có thể tự nhận diện deadline từ thông báo và tạo lịch nhắc nhở. |
+| Cảm nhận nhanh | Workflow |
 
 Quy trình nháp hiện tại:
 
-```[1. Xác định chủ đề: 5'] → [2. Tìm tài liệu trên Google Scholar: 15'] → [3. Tải và phân loại tài liệu: 10']
+```text
+[1. Nhận thông báo bài tập: 5'] → [2. Kiểm tra Google Classroom: 10'] → [3. Kiểm tra Zalo, Discord: 10']
 
-  → [4. Đọc nội dung từng tài liệu: 30'] → [5. Ghi chú và tổng hợp thông tin: 30'] ← BOTTLENECK
+→ [4. Ghi deadline vào Google Sheets: 10'] → [5. Sắp xếp thứ tự ưu tiên: 15'] ← BOTTLENECK
 
-  → [6. Kiểm tra và hoàn thiện nội dung: 10']
+→ [6. Lập lịch học tập: 10'] → [7. Kiểm tra lại deadline: 5']
 
-Tổng thời gian: 100 phút.
+Tổng thời gian: 65 phút.
 
 ```
 
@@ -93,20 +94,27 @@ Tổng thời gian: 100 phút.
 
 | Trường | Nội dung |
 |---|---|
-| Job Story | Khi …, tôi muốn …, để … |
-| Actor | |
-| Thời điểm / bối cảnh | |
-| Quy trình hiện tại (3–7 bước) | |
-| Bottleneck (bước nào, mất bao nhiêu phút) | |
-| Impact (nếu không giải thì sao) | |
-| Success metric (baseline → target) | |
-| Phương án không dùng AI | |
-| Giả thuyết về AI (nếu có) | |
-| Cảm nhận nhanh | No AI / Rule / Workflow / Agent / Chưa biết |
+| Job Story | Khi làm bài tập nhóm, tôi muốn theo dõi tiến độ và phân chia công việc rõ ràng để hoàn thành đúng hạn. |
+| Actor | Sinh viên và các thành viên trong nhóm. |
+| Thời điểm / bối cảnh | Khi thực hiện bài tập lớn hoặc dự án nhóm. |
+| Quy trình hiện tại (3–7 bước) | 1. Thảo luận nhiệm vụ. 2. Phân chia công việc. 3. Ghi nhận trên nhóm chat. 4. Theo dõi tiến độ. 5. Tổng hợp kết quả. |
+| Bottleneck (bước nào, mất bao nhiêu phút) | Theo dõi tiến độ và nhắc nhở thành viên qua tin nhắn. |
+| Impact (nếu không giải thì sao) | Chậm tiến độ, trùng lặp công việc và ảnh hưởng kết quả chung. |
+| Success metric (baseline → target) | Tỷ lệ nhiệm vụ hoàn thành đúng hạn: 70% → 95%. |
+| Phương án không dùng AI | Trello, Notion hoặc Google Sheets. |
+| Giả thuyết về AI (nếu có) | AI có thể tự tổng hợp tiến độ và phát hiện nhiệm vụ có nguy cơ trễ hạn. |
+| Cảm nhận nhanh | Workflow |
 
 Quy trình nháp hiện tại:
 
 ```text
+[1. Tạo nhóm và trao đổi công việc: 10'] → [2. Thảo luận nội dung: 15'] → [3. Phân chia nhiệm vụ: 15']
+
+→ [4. Ghi nhiệm vụ vào Google Sheets: 10'] → [5. Nhắn tin hỏi tiến độ thành viên: 20'] ← BOTTLENECK
+
+→ [6. Tổng hợp kết quả: 15'] → [7. Kiểm tra và hoàn thiện bài: 15']
+
+Tổng thời gian: 100 phút.
 
 ```
 
