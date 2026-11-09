@@ -1,8 +1,10 @@
-# Báo cáo cá nhân — MSSV_HoTen
+# Báo cáo cá nhân — 2A202603955_NguyenXuanDuong
 
 > Đổi tên file theo quy tắc `MSSV_HoTen.md`, ví dụ `20241234_NguyenVanAn.md` (MSSV trước, dấu `_`, họ tên viết liền không dấu). Sửa cả dòng tiêu đề phía trên cho khớp.
 > Template chi tiết và prompt mẫu cho từng mục: [docs/01-worksheet.md](../../docs/01-worksheet.md).
 > Mỗi thành viên một file trong `report/individual/` trên repo nhóm: copy template này thành file mới, điền, rồi commit bằng tài khoản GitHub của bạn. Không viết hộ người khác.
+
+**Nhân vật:** Minh, Junior Product Manager ở một công ty SaaS khoảng 50 người, dùng Jira, Google Sheets và Slack gói Pro. Mỗi sáng thứ Hai, Minh tổng hợp số liệu từ ba công cụ này để viết báo cáo tuần cho Engineering Manager (EM) và CEO.
 
 ## 1. Thông tin học viên
 
