@@ -173,16 +173,16 @@ HIỆN TẠI — 45 phút
 
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
-| Pitch Problem Card | | |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | |
-| Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
-| Gom cluster / cây OST | | |
-| Chọn candidate problem | | |
-| Kiểm chứng / research | | |
-| Quy trình nhóm | | |
-| Problem Statement | | |
-| Mức can thiệp AI | | |
-| Quyết định | | |
+| Pitch Problem Card | Trình bày 3 card của mình, đặc biệt nhấn mạnh Card #1 về trích xuất log thực nghiệm AI và Card #3 về rà soát rubric trước deadline. | Giúp nhóm có thêm góc nhìn về các bài toán tự động hóa quy trình kỹ thuật. |
+| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt:<br>• Hỏi Dương: *"Các công cụ như Google Calendar hay Notion đã có sẵn, tại sao sinh viên vẫn bị quên deadline?"*<br>• Hỏi Gấm: *"Bài toán đọc hiểu paper AI quá rộng, làm sao đánh giá được AI tóm tắt đúng hay bịa đặt (hallucination)?"* | Giúp nhóm nhận ra bài toán tổng hợp tài liệu của Gấm có rủi ro ảo giác quá cao và không vừa sức lab; đồng thời thúc đẩy làm rõ vì sao các app lịch hiện tại chưa giải quyết được khâu nhập liệu. |
+| Nhận phản biện | Câu hỏi tôi nhận được:<br>• Dương hỏi: *"Dùng TensorBoard hay Wandb đã hiển thị biểu đồ loss/metric rồi, AI can thiệp vào bước nào?"*<br>• Gấm hỏi: *"Check rubric nộp bài dùng script linter regex là đủ, AI có thừa không?"* | Tôi đã sửa gì:<br>• Thừa nhận Card #3 chỉ cần Rule, không nên cố nhét AI vào.<br>• Làm rõ lại Card #1: AI chỉ giúp phân tích mẫu lỗi (error pattern) chứ không can thiệp vào việc vẽ đồ thị số liệu. |
+| Gom cluster / cây OST | Chủ trì gom 12 candidate của 4 bạn thành 4 cụm logic; cùng nhóm xây dựng cây OST với Outcome giảm thời gian gom việc từ 30p xuống ≤ 15p/tuần. | Nhóm có bức tranh tổng thể rõ ràng, loại bỏ được các giải pháp trá hình ("chatbot toàn năng"). |
+| Chọn candidate problem | Cùng nhóm thảo luận chấm điểm 7 tiêu chí cho 3 bài shortlist; biểu quyết chọn bài toán Quản lý deadline và trích xuất thông báo (Cụm A). | Thống nhất chọn được bài toán thực tế nhất, vừa sức và có thể kiểm chứng được ngay trong lớp. |
+| Kiểm chứng / research | Hỗ trợ phân tích kết quả phỏng vấn 5 bạn sinh viên; đóng góp ý kiến về khoảng trống của các công cụ Todoist, Google Calendar. | Nhóm kiên định không làm app lịch mới mà chỉ làm công cụ trích xuất trung gian có con người xác nhận (HITL). |
+| Quy trình nhóm | Trực tiếp vẽ sơ đồ quy trình hiện tại (6 bước, 30 phút) và quy trình tương lai (4 bước, 15 phút) trên ASCII/Mermaid. | Xác lập rõ ràng bước nào Rule làm, bước nào AI làm và bước nào con người bắt buộc phải phê duyệt. |
+| Problem Statement | Cùng Thịnh rà soát và hoàn thiện 6 trường của Problem Statement v0 và v1, đặc biệt là Success Metric có baseline và target đo được. | Đảm bảo Problem Statement chặt chẽ, không bị lỗi thiếu số liệu hay metric mơ hồ. |
+| Mức can thiệp AI | Phản biện kịch liệt phương án dùng Autonomous Agent; đề xuất và bảo vệ phương án Workflow kết hợp Rule validation. | Giúp bài nhóm tránh được bẫy over-engineering và rủi ro vi phạm bảo mật dữ liệu cá nhân. |
+| Quyết định | Tham gia đánh giá 4 rủi ro, đồng thuận kết luận Go ở quy mô pilot nhỏ và xác lập Ngưỡng dừng (Stop condition). | Giúp nhóm có kế hoạch thử nghiệm thực tế và tiêu chí dừng cuộc chơi an toàn. |
 
 ---
 
@@ -190,35 +190,50 @@ HIỆN TẠI — 45 phút
 
 | Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
 |---|---|---|---|---|
-| CP1 Scan | | | | |
-| CP2 Problem Card | | | | |
-| CP4 Research | | | | |
-| CP5 Quy trình | | | | |
-| CP5–6 Problem Statement | | | | |
-| CP6 Mức can thiệp / quyết định | | | | |
+| CP1 Scan | Gợi ý thêm các góc nhìn về lãng phí thời gian khi làm bài tập kỹ thuật. | Gợi ý được ý tưởng về tự động lưu vết thực nghiệm (experiment log) và tra cứu lỗi lặp lại. | AI đưa ra các gợi ý rất viển vông kiểu "AI tự động hoàn thành bài tập thay sinh viên" (solution trá hình). | Loại bỏ các ý viển vông; tự viết lại 10 bài toán gắn với số liệu đo thời gian thực tế của bản thân. |
+| CP2 Problem Card | Đóng vai "PM hoài nghi" để phản biện điểm yếu của Problem Card #1. | Chỉ ra được giả định ngầm sai lầm rằng các framework khác nhau sẽ có log stdout giống nhau. | AI khuyên nên làm Agent tự động chỉnh luôn siêu tham số (AutoML) và tự chạy đợt train tiếp theo. | Bác bỏ gợi ý làm Agent; giữ vững ranh giới an toàn: AI chỉ gợi ý giả thuyết lỗi, kỹ sư phải tự tay chỉnh tham số. |
+| CP4 Research | Tìm kiếm thông tin về tính năng Natural Language Input của Todoist và Google Tasks. | Cung cấp nhanh tài liệu về cú pháp nhận diện ngày giờ tiếng Anh của Todoist. | AI khẳng định Todoist đã xử lý hoàn hảo tiếng Việt tự nhiên (thực tế thử nghiệm tiếng Việt rất hay sai lệch ngữ cảnh). | Tự kiểm tra lại bằng tài liệu và đưa nhận định chính xác vào bảng research: Todoist vẫn bỏ sót câu phức tiếng Việt. |
+| CP5 Quy trình | Chuyển đổi mô tả các bước thành sơ đồ dạng text box rõ ràng. | Căn chỉnh sơ đồ ASCII và syntax Mermaid nhanh, tiết kiệm thời gian vẽ tay. | AI tự động bỏ qua bước Rule validation và tự ý nối AI thẳng vào Google Calendar mà không có bước con người xác nhận. | Bổ sung ngay bước con người duyệt (Human-in-the-loop) làm Boundary bắt buộc trước khi lưu dữ liệu. |
+| CP5–6 Problem Statement | Rà soát lỗ hổng logic trong bản thảo Problem Statement v0. | Cảnh báo việc metric "nhanh hơn" là không đạt chuẩn, ép phải có baseline và target dạng số. | AI gợi ý viết Problem Statement dài dòng như một bài văn thuyết minh giải pháp. | Cắt gọt lại ngắn gọn, tuân thủ đúng 6 trường chuẩn của bài lab. |
+| CP6 Mức can thiệp / quyết định | So sánh ưu/nhược điểm giữa Workflow và Autonomous Agent. | Tổng hợp nhanh các rủi ro về chi phí token và độ trễ của hệ thống Agent. | AI có xu hướng ca ngợi Agent và khuyên nhóm nên dùng Multi-agent để "bắt kịp xu hướng công nghệ". | Giữ vững nguyên tắc "đơn giản nhất đủ dùng": kiên quyết chọn Workflow vì Agent quá rủi ro cho bài toán deadline. |
 
 ---
 
 ## 6. Reflection (CP7)
 
-Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ cho các câu 6.1–6.6 (không tính 6.7, câu này được chấm riêng ở tiêu chí C5). **Không dùng AI để viết thay.**
+**6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**  
+Khi lắng nghe phần pitch của 3 bạn trong nhóm, tôi nhận ra góc nhìn của mỗi người chịu ảnh hưởng rất lớn từ trải nghiệm cá nhân của họ. Bạn Gấm và bạn Dương xuất phát từ nỗi đau quản lý lịch học và tổng hợp tài liệu nghiên cứu, bạn Thịnh quan tâm đến việc trôi thông tin trong các kênh chat và việc các thành viên trong nhóm gặp issue nhưng không dám nói, còn bản thân tôi lại thiên về các vấn đề kỹ thuật sâu như benchmark mô hình AI hay cấu hình CUDA. Điều quý giá nhất tôi học được là khi đặt cạnh nhau, các vấn đề tưởng như rời rạc lại cùng chia sẻ một mô thức chung (pattern): thông tin bị phân tán trên quá nhiều nền tảng và người dùng phải làm "cầu nối thủ công" bằng cách copy-paste qua lại giữa các ứng dụng.
 
-**6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
+**6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**  
+Nhóm tôi đã bị rơi vào bẫy "solution-first" ngay từ những phút đầu tiên khi vừa gặp nhau. Ý tưởng ban đầu xuất hiện trong đầu mọi người là: *"Hãy làm một con bot Telegram/Discord AI xịn sò, tự động đọc mọi tin nhắn của giảng viên rồi tự tạo sự kiện vào Google Calendar"*. Khi đó, nhóm đang nghĩ về công nghệ (Bot, Agent, LLM) trước khi hiểu được thực tế. Chúng tôi chỉ thực sự tỉnh ngộ khi đặt câu hỏi: *"Nếu bot đọc nhầm một tin nhắn đùa của bạn cùng lớp thành lịch thi thì chuyện gì xảy ra?"* và *"Sinh viên có dám cấp quyền cho bot đọc toàn bộ tin nhắn riêng tư trên Zalo không?"*. Nhận ra rủi ro nghiêm trọng về bảo mật và sự tin tưởng của người dùng, nhóm đã lập tức kéo nhau về lại bước Problem: vấn đề cốt lõi chỉ là hỗ trợ nhận diện và trích xuất thông tin từ đoạn văn bản cụ thể mà người dùng chủ động cung cấp, chứ không phải là thay thế toàn bộ hành vi của người dùng.
 
-**6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
+**6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**  
+Tôi đã đổi ý hoàn toàn ở Card #3 (Kiểm tra rubric trước khi nộp bài). Ban đầu, tôi rất hào hứng với ý tưởng dùng AI để quét toàn bộ bài lab và so sánh với file RUBRIC.md. Tuy nhiên, bạn Gấm và bạn Thịnh đã phản biện rất thẳng thắn: *"Việc kiểm tra tên file, kiểm tra nhánh git hay đếm số từ hoàn toàn có thể viết bằng một script Python linter chạy trong 1 giây với độ chính xác 100%, tại sao phải tốn tiền gọi API AI để làm một việc có tính xác định cao như vậy?"*. Câu hỏi này đã đánh trúng vào điểm yếu của tôi: đang cố nhét AI vào một bài toán thuần Rule. Tôi đã đồng ý với nhóm loại bỏ ý tưởng dùng AI cho khâu này và chỉ giữ lại bài toán trích xuất deadline phi cấu trúc – nơi mà Rule thực sự bất lực trước ngôn ngữ tự nhiên.
 
-**6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
+**6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**  
+Điều làm tôi bất ngờ nhất khi xem kết quả phỏng vấn 5 bạn sinh viên thật là: **Hầu hết mọi người đều từng bị quên hoặc suýt trễ deadline ngay trong tuần vừa rồi (tại bài Lab 1)**, nhưng **không một ai muốn tải thêm một ứng dụng quản lý lịch mới**. Trước đó, giả định ngầm của nhóm là sinh viên thiếu một app quản lý thời gian tốt. Thực tế chứng minh sinh viên đã có quá nhiều app (Google Calendar, Todoist, Notion, Apple Notes), họ không thiếu nơi lưu trữ mà họ chỉ thiếu một công cụ giúp họ giảm bớt thao tác gõ tay từ tin nhắn vào app lịch sẵn có. Phát hiện này đã cứu nhóm khỏi việc lãng phí thời gian xây dựng một giao diện lịch biểu thừa thãi.
 
-**6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
+**6.5. Điều khó nhất khi viết Problem Statement là gì?**  
+Điều khó khăn nhất đối với tôi và nhóm là việc xác định **Success Metric có baseline đo được và ranh giới Boundary**. Lúc đầu, chúng tôi quen tay viết những câu sáo rỗng như *"giúp sinh viên quản lý thời gian hiệu quả hơn"* hoặc *"giảm đáng kể việc trễ hạn"*. Khi bị ép phải đưa ra con số cụ thể (Baseline là bao nhiêu? Muốn đạt Target nào? Đo bằng cách nào?), nhóm phải ngồi bấm giờ lại từng thao tác và lục lại lịch sử nộp bài cũ để có con số 30 phút/tuần và mục tiêu giảm xuống ≤ 15 phút/tuần kèm điều kiện ngặt nghèo là 0% deadline bị bỏ sót. Ngoài ra, việc vạch rõ AI **không được làm gì** (Boundary) đòi hỏi phải suy nghĩ thấu đáo về các kịch bản lỗi xấu nhất có thể xảy ra.
 
-**6.5. Điều khó nhất khi viết Problem Statement là gì?**
+**6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**  
+Nếu được làm lại từ đầu, tôi sẽ yêu cầu nhóm thực hiện phỏng vấn người dùng (The Mom Test) sớm hơn ngay từ bước CP1 thay vì đợi đến CP4 mới đi hỏi. Việc có dữ liệu người thật sớm sẽ giúp nhóm không mất thời gian tranh cãi về các giả định chủ quan. Ngoài ra, tôi sẽ phản biện nhóm mạnh hơn ở khâu thiết kế dữ liệu đầu vào: thay vì chỉ nhận văn bản copy-paste, nhóm nên cân nhắc thêm trường hợp thông báo bằng hình ảnh (ảnh chụp màn hình tin nhắn hoặc ảnh chụp thời khóa biểu) vì sinh viên chia sẻ rất nhiều thông tin qua ảnh chụp màn hình.
 
-**6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
-
-**6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
+**6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.  
+1. **Problem:** Sinh viên đại học thường xuyên nhận thông báo bài tập dưới dạng văn bản tự nhiên phi cấu trúc nằm rải rác trên LMS, Zalo, Discord, dẫn đến mất thời gian đọc lọc và nguy cơ cao bị ghi sót hoặc nhầm deadline.  
+2. **Quy trình:** Người dùng dán nội dung thông báo vào hệ thống $\rightarrow$ AI bóc tách thực thể (tên môn, nhiệm vụ, thời hạn) $\rightarrow$ Rule kiểm tra định dạng ngày giờ $\rightarrow$ Sinh viên xem trước và bấm xác nhận $\rightarrow$ Hệ thống tự động đồng bộ sự kiện vào Google Calendar.  
+3. **Metric:** Giảm thời gian tổng hợp lịch từ 30 phút xuống còn $\le 15$ phút/tuần (giảm $\ge 50\%$), đồng thời duy trì tỷ lệ bỏ sót deadline là 0% và tỷ lệ trích xuất đúng trường ngày giờ đạt $\ge 90\%$.  
+4. **Boundary:** AI tuyệt đối không được tự ý ghi vào lịch khi người dùng chưa bấm xác nhận, không được tự đoán mò ngày nếu thông báo thiếu dữ kiện thời gian (phải bật cảnh báo), và không lưu trữ tin nhắn riêng tư lên máy chủ công cộng.  
+5. **Mức can thiệp AI:** Chọn mức **Workflow** (kết hợp AI trích xuất thực thể theo cấu trúc JSON + Rule validation + Human-in-the-loop phê duyệt), kiên quyết không chọn Rule vì tiếng Việt tự nhiên quá đa dạng, và từ chối Agent vì rủi ro ảo giác và xâm phạm quyền riêng tư.  
+6. **Quyết định:** Chọn **Go** ở quy mô pilot nhỏ (MVP bằng Streamlit thử nghiệm trên 20 sinh viên trong 2 tuần), kèm ngưỡng dừng rõ ràng: nếu tỷ lệ sinh viên chấp nhận lưu kết quả $< 80\%$ hoặc thời gian sửa lỗi $> 3$ phút/lần thì dừng dự án và quay về phương án nhập liệu thủ công chuẩn hóa trên Todoist.
 
 ---
 
 ## 7. Tài liệu tham khảo
 
--
+- Google PAIR (People + AI Research Guidebook): [https://pair.withgoogle.com/guidebook](https://pair.withgoogle.com/guidebook)
+- The Mom Test — Rob Fitzpatrick
+- Opportunity Solution Tree — Teresa Torres
+- Building Effective Agents — Anthropic Research: [https://www.anthropic.com/research/building-effective-agents](https://www.anthropic.com/research/building-effective-agents)
+- Four Big Risks — Marty Cagan (SVPG): [https://www.svpg.com/four-big-risks](https://www.svpg.com/four-big-risks)
+
