@@ -216,28 +216,20 @@ Quy trình nháp hiện tại:
 
 ---
 
-### AI đã phản biện card thế nào
-
-| Điểm yếu AI chỉ ra | Đồng ý? | Đã sửa gì |
-|---|---|---|
-| | | |
-
----
-
 ## 4. Tôi đã tham gia phần nào (CP3 → CP7)
 
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
-| Pitch Problem Card | | |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | |
-| Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
-| Gom cluster / cây OST | | |
-| Chọn candidate problem | | |
-| Kiểm chứng / research | | |
-| Quy trình nhóm | | |
-| Problem Statement | | |
-| Mức can thiệp AI | | |
-| Quyết định | | |
+| Pitch Problem Card | Trình bày Card #1 về quản lý lịch học và deadline phân tán, Card #2 về tìm kiếm tài liệu nghiên cứu và Card #3 về theo dõi tiến độ bài tập nhóm. | Đưa ra được bài toán có nỗi đau phổ quát nhất, thuyết phục nhóm chọn Card #1 làm candidate problem chính của cả nhóm. |
+| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt:<br>• Hỏi Mạnh: *"Log thực nghiệm AI chỉ có một số ít bạn chuyên ngành AI/Data quan tâm, sinh viên bình thường đâu có nhu cầu đó, liệu bài toán có quá hẹp và thiếu tính đại diện không?"*<br>• Hỏi Dương: *"Việc đọc tài liệu nghiên cứu là việc cá nhân theo từng đợt, liệu vấn đề này có gây hậu quả cấp bách bằng việc bị trễ hạn bài tập nhóm bị trừ điểm trực tiếp không?"*<br>• Hỏi Thịnh: *"Nếu dùng bảng tiến độ mà thành viên ngại nói hoặc không chủ động điền thì công cụ làm sao phát hiện được ai đang bị nghẽn?"* | Giúp nhóm nhận diện tính cấp bách của từng bài toán; thúc đẩy các bạn nhìn nhận lại mức độ ảnh hưởng của vấn đề đối với số đông sinh viên. |
+| Nhận phản biện | Câu hỏi tôi nhận được:<br>• Mạnh hỏi: *"Nhiều thông báo là tin nhắn trao đổi, thảo luận bài học bình thường, làm sao AI phân biệt được đâu là deadline bắt buộc phải nộp?"*<br>• Dương hỏi: *"Google Calendar và Notion đã có sẵn trên điện thoại rồi, tại sao sinh viên không tự mở lên tạo sự kiện?"* | Tôi đã sửa gì:<br>• Bổ sung vào Card #1 yêu cầu rõ ràng: hệ thống chỉ xử lý đoạn văn bản mà sinh viên chủ động chọn lọc và dán vào, có cảnh báo nếu thiếu ngày giờ.<br>• Làm rõ rào cản hành vi: vấn đề không phải do thiếu app lịch mà là ma sát khi phải copy thủ công từng mẩu tin nhắn để gõ vào lịch. |
+| Gom cluster / cây OST | Bảo vệ cụm bài toán "Quản lý thông báo và deadline học tập" (Cụm A); cùng nhóm xây dựng cây OST với mục tiêu cốt lõi là giảm thời gian ma sát tổng hợp lịch từ 30 phút xuống còn ≤ 15 phút/tuần. | Giữ vững định hướng giải quyết bài toán cốt lõi, không để nhóm bị phân tán sang các ý tưởng làm trợ lý học tập đa năng. |
+| Chọn candidate problem | Trình bày các lập luận thực tế để chứng minh tính cấp bách của Card #1: ảnh hưởng 100% sinh viên, lặp lại hằng tuần và hậu quả nhìn thấy ngay (bị trừ điểm nếu nộp muộn). | Nhóm đồng thuận chấm điểm cao nhất cho Candidate Cụm A (34/35 điểm) và chọn làm bài toán trọng tâm. |
+| Kiểm chứng / research | Trực tiếp xây dựng Assumption Map với 6 giả định; thiết kế bộ câu hỏi phỏng vấn theo phương pháp The Mom Test (hỏi hành vi quá khứ, không hỏi tương lai); trực tiếp phỏng vấn 5 bạn sinh viên thật; tổng hợp 3 snapshot tiêu biểu và rút ra bảng tín hiệu xác nhận vs phản bác. | Cung cấp bằng chứng thực tế quan trọng nhất của bài lab (Mục 3.1 và 3.2), giúp nhóm đổi hướng kịp thời không xây app lịch mới mà làm công cụ trích xuất. |
+| Quy trình nhóm | Cùng Mạnh xây dựng sơ đồ quy trình Before/After dựa trên chính các bước mà sinh viên được phỏng vấn đã mô tả; chỉ rõ bước đọc lọc và copy-paste thủ công giữa nhiều cửa sổ là nút thắt tốn thời gian nhất. | Đảm bảo sơ đồ quy trình phản ánh đúng 100% trải nghiệm thực tế của sinh viên, không bị suy diễn chủ quan. |
+| Problem Statement | Tham gia hoàn thiện Problem Statement v1, cung cấp số liệu thực tế từ phỏng vấn: sinh viên tốn trung bình 30 phút/tuần rà soát các kênh chat và đặt ra mục tiêu khắt khe: 0% deadline bị bỏ sót. | Giúp Problem Statement có số liệu kiểm chứng thực tế và định lượng rõ ràng. |
+| Mức can thiệp AI | Đóng vai trò bảo vệ người dùng, nhấn mạnh nguyên tắc "Human-in-the-loop": AI chỉ trích xuất bản nháp (preview), sinh viên bắt buộc phải là người quyết định bấm lưu vào Google Calendar. | Ngăn chặn hoàn toàn nguy cơ AI tự ý tạo sự kiện sai lệch gây hoang mang cho người dùng. |
+| Quyết định | Dựa trên kết quả phỏng vấn (100% sinh viên từ chối cài thêm app mới nhưng ủng hộ công cụ hỗ trợ app sẵn có), bỏ phiếu Go cho giải pháp Workflow trích xuất dữ liệu gọn nhẹ. | Đảm bảo quyết định đi tiếp dựa trên bằng chứng người dùng thực tế chứ không dựa trên cảm tính. |
 
 ---
 
@@ -245,12 +237,12 @@ Quy trình nháp hiện tại:
 
 | Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
 |---|---|---|---|---|
-| CP1 Scan | | | | |
-| CP2 Problem Card | | | | |
-| CP4 Research | | | | |
-| CP5 Quy trình | | | | |
-| CP5–6 Problem Statement | | | | |
-| CP6 Mức can thiệp / quyết định | | | | |
+| CP1 Scan | Tìm thêm các tình huống sinh viên hay quên nhiệm vụ trong tuần học. | Gợi ý tình huống quên điền form khảo sát môn học và quên kiểm tra email trường. | Đề xuất các bài toán quản lý quá phức tạp như "trợ lý học tập ảo thông minh toàn diện". | Lọc lấy các tình huống thực tế về trôi tin nhắn trong group chat Zalo/Discord của lớp. |
+| CP2 Problem Card | Gợi ý các câu hỏi phản biện cho Problem Card #1. | Chỉ ra rằng tôi chưa có số liệu thực tế về thời gian kiểm tra thông báo mỗi ngày. | Khuyên nên đưa công nghệ Agent tự động đồng bộ ngay vào giải pháp. | Hạ mức giải pháp xuống kiểm chứng công cụ thông thường trước, AI chỉ là giả thuyết hỗ trợ trích xuất. |
+| CP4 Research | Rà soát bộ câu hỏi phỏng vấn theo chuẩn The Mom Test. | Phát hiện các câu hỏi mang tính gợi ý, định hướng (leading questions) như "Bạn có thấy phiền khi nhận thông báo không?". | Gợi ý các câu hỏi giả định tương lai kiểu "Bạn có muốn một công cụ AI tự động tạo lịch không?". | Xóa bỏ toàn bộ câu hỏi tương lai, thay bằng câu hỏi hành vi quá khứ: "Lần gần nhất bạn bị trễ deadline là khi nào? Bạn đã xử lý ra sao?". |
+| CP5 Quy trình | Mô phỏng các biến thể tin nhắn thông báo bài tập thực tế (text ngắn, text dài có emoji, tin nhắn chuyển tiếp từ thầy cô). | Tạo ra tập dữ liệu đa dạng để kiểm tra các trường hợp ngoại lệ. | Giả định thông báo nào cũng có đủ ngày, giờ, tên môn học một cách ngăn nắp. | Thiết kế thêm luồng xử lý cho thông báo thiếu thông tin: AI highlight màu vàng cảnh báo thiếu ngày/giờ để người dùng tự điền. |
+| CP5–6 Problem Statement | Kiểm tra câu chữ và tính mạch lạc trong Problem Statement. | Giúp gọt giũa từ ngữ ngắn gọn, chuẩn cấu trúc 6 trường quy định. | Có xu hướng viết thành thông điệp quảng cáo (marketing pitch) thay vì văn phong kỹ thuật. | Viết lại theo văn phong kỹ thuật khách quan, bám sát các số liệu đo lường thu được từ phỏng vấn. |
+| CP6 Mức can thiệp / quyết định | Tổng hợp các trường hợp người dùng từ chối sản phẩm (rejection cases). | Cảnh báo nguy cơ người dùng thấy phiền nếu phải bấm quá nhiều nút xác nhận trên màn hình. | Khuyên bỏ hẳn bước kiểm tra của con người để tối đa hóa tốc độ. | Giữ nguyên bước con người xác nhận (HITL) nhưng tối ưu giao diện duyệt 1 chạm (1-click approve) cho trường hợp tự tin cao. |
 
 ---
 
@@ -258,22 +250,36 @@ Quy trình nháp hiện tại:
 
 Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ cho các câu 6.1–6.6 (không tính 6.7, câu này được chấm riêng ở tiêu chí C5). **Không dùng AI để viết thay.**
 
-**6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
+**6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**  
+Khi nghe các bạn trong nhóm trình bày, tôi học được cách nhìn nhận vấn đề dưới những lăng kính rất khác nhau. Bạn Mạnh nhìn mọi thứ qua lăng kính kỹ thuật và độ chuẩn xác của dữ liệu, bạn Thịnh nhìn qua lăng kính quản trị rủi ro và các kịch bản lỗi xấu nhất, còn bạn Dương lại quan sát dưới góc độ trải nghiệm thị trường và tính năng của các sản phẩm có sẵn. Sự cọ xát này giúp tôi hiểu rằng một vấn đề dù có vẻ rất đau đớn với cá nhân mình chưa chắc đã là một bài toán tốt cho cả nhóm nếu nó không vượt qua được các câu hỏi kiểm tra về tính khả thi kỹ thuật và rủi ro triển khai. Lắng nghe phản biện giúp tôi không bị "yêu say đắm" ý tưởng của mình mà học cách bảo vệ nó bằng số liệu thực tế thay vì cảm xúc.
 
-**6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
+**6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**  
+Nhóm tôi đã bị "solution-first" rõ rệt ở ngay đầu buổi thảo luận CP3. Khi bài toán của tôi được bầu chọn là ứng viên tiềm năng nhất, cả nhóm lập tức hào hứng bàn về việc: "Xây một chatbot AI tự động quét tin nhắn trong group chat Zalo/Discord rồi tự động đẩy vào Google Calendar". Chúng tôi nói say sưa về API, về bot token mà không hề nhận ra mình đang tự giả định rằng sinh viên sẽ sẵn sàng cấp quyền cho bot đọc tin nhắn của họ. Nhóm chỉ giật mình quay lại thực tế khi tôi bắt đầu phỏng vấn người dùng thật theo The Mom Test: sinh viên phản ứng rất e dè và kiên quyết từ chối việc cho bất kỳ con bot nào can thiệp tự động vào tài khoản chat cá nhân. Tín hiệu phản bác này là hồi chuông cảnh tỉnh giúp nhóm vứt bỏ hoàn toàn ý tưởng bot tự động, quay về giải pháp tôn trọng quyền riêng tư: người dùng tự chủ động copy-paste nội dung cần xử lý.
 
-**6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
+**6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**  
+Tôi đã có một lần đổi ý rất lớn ngay trong chính Problem Card #1 của mình. Ban đầu, tôi đề xuất thiết kế một ứng dụng hoàn chỉnh có giao diện quản lý lịch biểu riêng để thay thế các app hiện có. Tuy nhiên, trong phiên pitch, cả ba bạn Mạnh, Dương và Thịnh đều đồng loạt chất vấn tôi: "Sinh viên đã quen dùng Google Calendar từ lâu, liệu họ có chịu tải thêm một app mới và chuyển toàn bộ thời khóa biểu sang đó không?". Câu hỏi này làm tôi chững lại. Khi đi phỏng vấn thực tế 5 bạn sinh viên, 100% các bạn đều khẳng định sẽ không dùng nếu phải tải thêm một ứng dụng lịch độc lập. Tôi nhận ra giả định "xây app mới" của mình là hoàn toàn sai lầm. Tôi lập tức đổi ý, cùng nhóm định vị lại sản phẩm: không làm app lịch mới mà chỉ làm một công cụ trung gian trích xuất dữ liệu để đẩy vào Google Calendar mà sinh viên đang dùng sẵn.
 
-**6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
+**6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**  
+Điều làm tôi bất ngờ và vỡ òa nhất trong quá trình trực tiếp phỏng vấn 5 bạn sinh viên theo The Mom Test là: **Hầu hết các bạn đều có cách đối phó (workaround) rất kỳ lạ nhưng quen thuộc**. Có bạn chụp ảnh màn hình tin nhắn rồi gửi vào nhóm chat "Chỉ mình tôi" trên Zalo, có bạn lấy giấy nhớ dán kín màn hình laptop, có bạn nhờ bạn cùng phòng nhắc nhở. Họ nhận thức rất rõ nỗi đau bị trôi deadline và đều từng bị trừ điểm vì nộp trễ bài tập ngay trong tuần trước, nhưng họ chấp nhận các giải pháp chắp vá đó vì các app quản lý công việc hiện tại quá phiền phức khi nhập liệu. Nhìn thấy hành vi thật của người dùng giúp tôi tin tưởng chắc chắn rằng: nếu tạo ra một công cụ giúp họ chuyển đổi văn bản thông báo thành sự kiện lịch chỉ với 1 cú click, họ chắc chắn sẽ đón nhận nhiệt tình.
 
-**6.5. Điều khó nhất khi viết Problem Statement là gì?**
+**6.5. Điều khó nhất khi viết Problem Statement là gì?**  
+Điều khó khăn nhất đối với tôi là việc viết trường Boundary (ranh giới) và Success Metric một cách sòng phẳng, không né tránh. Lúc đầu, tôi có xu hướng viết chung chung là "giúp giảm thiểu tối đa tình trạng trễ hạn". Nhưng khi làm việc với nhóm, đặc biệt là với sự khắt khe của Thịnh, tôi bị ép phải đưa ra con số chính xác: Baseline là bao nhiêu phút? Target giảm còn bao nhiêu? Thế nào là trích xuất đúng? Chúng tôi phải thống nhất rằng: thời gian phải giảm từ 30 phút xuống ≤ 15 phút/tuần, tỷ lệ bỏ sót deadline bắt buộc phải bằng 0%, và AI tuyệt đối không được tự ý ghi lịch khi người dùng chưa xác nhận. Việc đặt ra những ranh giới nghiêm ngặt này khiến chúng tôi cảm thấy áp lực nhưng bù lại nó tạo ra một khuôn khổ kỹ thuật vô cùng rõ ràng.
 
-**6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
+**6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**  
+Nếu có cơ hội làm lại bài lab từ đầu, tôi sẽ tiến hành phỏng vấn sinh viên sớm hơn ngay từ bước CP1 thay vì đợi đến CP4. Nếu có dữ liệu phỏng vấn sớm, nhóm sẽ tiết kiệm được ít nhất 2 tiếng tranh luận về các ý tưởng viển vông ở CP2 và CP3. Ngoài ra, tôi sẽ phản biện nhóm quyết liệt hơn về việc xử lý thông báo dạng ảnh: trong thực tế trường tôi, rất nhiều giảng viên không nhắn tin bằng văn bản mà gửi ảnh chụp thời khóa biểu hoặc ảnh chụp màn hình slide bài tập. Việc hệ thống chỉ nhận text đầu vào ở phiên bản pilot là một hạn chế lớn, và tôi sẽ thúc đẩy nhóm đưa tính năng OCR (nhận diện chữ từ ảnh) vào lộ trình phát triển ngay sau giai đoạn thử nghiệm đầu tiên.
 
-**6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
+**6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.  
+1. **Problem:** Sinh viên thường xuyên nhận thông báo bài tập dưới dạng văn bản tự nhiên phi cấu trúc nằm rải rác trên Zalo, Discord, LMS, dẫn đến việc mất nhiều thời gian đọc lọc thủ công và có nguy cơ cao bị bỏ sót deadline quan trọng.  
+2. **Quy trình:** Người dùng chủ động dán văn bản thông báo vào web app $\rightarrow$ AI bóc tách các trường dữ liệu cốt lõi (tên môn, nội dung bài tập, hạn nộp) theo cấu trúc JSON $\rightarrow$ Rule kiểm tra tính hợp lệ của ngày giờ $\rightarrow$ Người dùng xem lại bản xem trước và chỉnh sửa nếu cần $\rightarrow$ Hệ thống tự động đồng bộ sự kiện vào Google Calendar.  
+3. **Metric:** Cắt giảm thời gian tổng hợp lịch học từ 30 phút/tuần xuống còn $\le 15$ phút/tuần (giảm $\ge 50\%$), đồng thời duy trì tỷ lệ bỏ sót deadline ở mức tuyệt đối là 0% và độ chính xác trích xuất trường ngày giờ đạt $\ge 90\%$.  
+4. **Boundary:** AI tuyệt đối không tự ý can thiệp đọc trộm tin nhắn cá nhân, không tự động lưu sự kiện vào lịch khi người dùng chưa bấm nút xác nhận, và không được tự ý bịa đặt thời gian nếu văn bản gốc không có dữ kiện ngày giờ.  
+5. **Mức can thiệp AI:** Lựa chọn mức **Workflow** (kết hợp AI trích xuất thực thể, Rule kiểm tra ràng buộc thời gian và Human-in-the-loop phê duyệt), kiên quyết từ chối Rule vì không bóc tách được ngôn ngữ tự nhiên tiếng Việt phức tạp, và từ chối Agent vì rủi ro ảo giác và xâm phạm quyền riêng tư.  
+6. **Quyết định:** Thống nhất quyết định **Go** ở phạm vi pilot nhỏ (MVP bằng Streamlit thử nghiệm trên 20 sinh viên trong 2 tuần), đi kèm **Ngưỡng dừng** rõ ràng: nếu tỷ lệ sinh viên chấp nhận lưu sự kiện $< 80\%$ hoặc thời gian sửa lỗi thủ công $> 3$ phút/lần thì lập tức dừng dự án để tránh lãng phí tài nguyên.
 
 ---
 
 ## 7. Tài liệu tham khảo
 
--
+- Rob Fitzpatrick, *The Mom Test: How to talk to customers & learn if your business is a good idea when everyone is lying to you*.
+- Teresa Torres, *Continuous Discovery Habits: Discover Products that Create Customer Value and Business Value*, Product Talk LLC.
+- Google PAIR (People + AI Research Guidebook): [https://pair.withgoogle.com/guidebook](https://pair.withgoogle.com/guidebook)
