@@ -5,3 +5,9 @@ __pycache__/
 *.py[cod]
 .pytest_cache/
 .DS_Store
+
+# Scratch & draft files
+interview.md
+Trước_Sau.md
+BÁO CÁO PHÂN TÍCH BÀI TOÁN AI – AI STUDY TASK ASSISTANT.md
+

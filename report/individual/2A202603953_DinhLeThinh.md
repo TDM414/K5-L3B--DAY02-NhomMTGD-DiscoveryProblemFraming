@@ -1,10 +1,12 @@
+# Báo cáo cá nhân — 2A202603953_DinhLeThinh
+
 ## 1. Thông tin học viên
 
 - Họ tên: Đinh Lê Thịnh
 - MSSV: 2A202603953
 - Email trường (không bắt buộc, repo có thể để public): 26ai.thinhdl@vinuni.edu.vn
 - Tên nhóm: NhomMTGD
-- Link repo nhóm: https://github.com/TDM414/L3B--DAY02-NhomMTGD-DiscoveryProblemFraming.git
+- Link repo nhóm: https://github.com/TDM414/K5-L3B--DAY02-NhomMTGD-DiscoveryProblemFraming
 
 ---
 

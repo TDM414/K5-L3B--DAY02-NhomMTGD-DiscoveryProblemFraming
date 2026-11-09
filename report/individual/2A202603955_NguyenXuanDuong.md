@@ -8,7 +8,7 @@
 - MSSV: 2A202603955
 - Email trường (không bắt buộc, repo có thể để public):
 - Tên nhóm: NhomMTGD
-- Link repo nhóm: https://github.com/TDM414/L3B--DAY02-NhomMTGD-DiscoveryProblemFraming
+- Link repo nhóm: https://github.com/TDM414/K5-L3B--DAY02-NhomMTGD-DiscoveryProblemFraming
 
 ---
 
