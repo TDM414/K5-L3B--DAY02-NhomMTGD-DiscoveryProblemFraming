@@ -31,24 +31,24 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng 
 
 | Rank | Problem | Vì sao chọn | Điều còn chưa chắc |
 |---:|---|---|---|
-| 1 | | | |
-| 2 | | | |
-| 3 | | | |
+| 1 | Mất nhiều thời gian tìm kiếm và tổng hợp tài liệu học tập. | Xảy ra thường xuyên, đặc biệt khi ôn thi và nghiên cứu. | Mất trung bình bao nhiêu thời gian mỗi lần? |
+| 2 | Khó quản lý deadline của nhiều môn học. | Dễ bỏ sót bài tập khi có nhiều lịch trình cùng lúc. | Tần suất quên deadline thực tế? |
+| 3 | Khó theo dõi tiến độ và phân chia công việc nhóm. | Ảnh hưởng đến tiến độ và kết quả làm việc chung. | Mức độ ảnh hưởng đến các thành viên? |
 
 ### Problem Card #1
 
 | Trường | Nội dung |
 |---|---|
-| Job Story | Khi …, tôi muốn …, để … |
-| Actor | |
-| Thời điểm / bối cảnh | |
-| Quy trình hiện tại (3–7 bước) | |
-| Bottleneck (bước nào, mất bao nhiêu phút) | |
-| Impact (nếu không giải thì sao) | |
-| Success metric (baseline → target) | |
-| Phương án không dùng AI | |
-| Giả thuyết về AI (nếu có) | |
-| Cảm nhận nhanh | No AI / Rule / Workflow / Agent / Chưa biết |
+| Job Story | Khi phải học tập hoặc nghiên cứu, tôi muốn tìm kiếm và tổng hợp tài liệu nhanh chóng để tiết kiệm thời gian. |
+| Actor | Sinh viên năm cuối ngành AI.|
+| Thời điểm / bối cảnh | Khi ôn thi, làm bài tập lớn hoặc nghiên cứu khoa học. |
+| Quy trình hiện tại (3–7 bước) | 1. Xác định chủ đề cần tìm. 2. Tìm tài liệu trên Google. 3. Tải tài liệu về. 4. Đọc và chọn lọc nội dung. 5. Ghi chú và tổng hợp. |
+| Bottleneck (bước nào, mất bao nhiêu phút) | Đọc và chọn lọc tài liệu, có thể mất 30–60 phút cho mỗi tài liệu. |
+| Impact (nếu không giải thì sao) | Tốn thời gian, khó tiếp thu kiến thức và ảnh hưởng đến tiến độ học tập. |
+| Success metric (baseline → target) | Thời gian tổng hợp 5 tài liệu: 3 giờ → 1 giờ. |
+| Phương án không dùng AI | Sử dụng Google Scholar, Zotero và ghi chú trên Google Docs. |
+| Giả thuyết về AI (nếu có) | AI có thể tóm tắt, trích xuất ý chính và so sánh nội dung từ nhiều tài liệu. |
+| Cảm nhận nhanh | Agent |
 
 Quy trình nháp hiện tại:
 
