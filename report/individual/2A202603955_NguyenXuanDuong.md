@@ -18,18 +18,12 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng 
 
 | # | Lăng kính | Job Story: Khi… tôi muốn… để… | Ai chịu ảnh hưởng? | Dấu hiệu thật (thời gian, tần suất, số người, bằng chứng) |
 |---:|---|---|---|---|
-| 1 | Lặp lại | Khi có nhiều deadline từ các môn học khác nhau, tôi muốn tổng hợp tất cả vào một nơi để không bỏ sót bài tập. | Dương | Xảy ra hằng tuần; phải kiểm tra nhiều nhóm Zalo, Discord và Google Classroom. |
-| 2 | | | | |
-| 3 | | | | |
-| 4 | | | | |
-| 5 | | | | |
-| 6 | | | | |
-
-**Nếu có dùng AI để gợi ý thêm:** ý nào AI gợi ý mà bạn giữ lại, ý nào bỏ và vì sao.
-
--
-
----
+| 1 | Lặp lại | Khi có nhiều deadline từ các môn học khác nhau, tôi muốn tổng hợp tất cả vào một nơi để không bỏ sót bài tập. | Dương | Xảy ra hằng tuần; phải kiểm tra nhiều nhóm Zalo, Discord và LMS. |
+| 2 | Tốn thời gian | Khi cần ôn tập trước kỳ thi, tôi muốn tìm kiếm và tổng hợp tài liệu nhanh chóng để tiết kiệm thời gian học tập.	 | Dương | Mỗi môn có nhiều tài liệu PDF, slide và ghi chú; mất nhiều thời gian tìm kiếm và chọn lọc. |
+| 3 | Cần đọc, tổng hợp nhiều thông tin | Khi thực hiện nghiên cứu khoa học, tôi muốn AI hỗ trợ đọc và tóm tắt các bài báo khoa học để nhanh chóng nắm bắt nội dung quan trọng.| Dương và các thành viên nhóm nghiên cứu | Phải đọc nhiều bài báo, tài liệu chuyên ngành; mỗi tài liệu có thể dài hàng chục trang. |
+| 4 | Lặp lại | Khi làm bài tập nhóm, tôi muốn theo dõi tiến độ và phân chia công việc rõ ràng để đảm bảo mọi thành viên hoàn thành đúng hạn. | Dương và các thành viên trong nhóm | Mỗi bài tập nhóm có nhiều nhiệm vụ; thường xuyên phải nhắn tin hỏi tiến độ và nhắc deadline. |
+| 5 | Pain từ người khác | Khi thành viên trong nhóm không nắm được nội dung đã thống nhất, tôi muốn lưu lại các quyết định và phân công công việc để mọi người dễ dàng theo dõi. | Dương, trưởng nhóm và các thành viên | Thông tin trao đổi nằm rải rác trong nhiều cuộc trò chuyện; thành viên thường phải hỏi lại nội dung đã trao đổi. |
+| 6 | Tốn thời gian | Khi phải học nhiều môn cùng lúc, tôi muốn có một hệ thống quản lý kiến thức và ghi chú tập trung để dễ dàng tìm lại thông tin khi cần. | Dương | Kiến thức phân tán trên Google Drive, tài liệu cá nhân và các nhóm học tập; thường xuyên phải tìm lại nội dung cũ. |
 
 ## 3. Top 3 Problem Cards + quy trình nháp (CP2)
 
