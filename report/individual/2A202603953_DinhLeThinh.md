@@ -199,3 +199,4 @@ Nếu được làm lại từ đầu, tôi sẽ phản biện nhóm quyết li�
 - Teresa Torres, *Continuous Discovery Habits: Discover Products that Create Customer Value and Business Value*, Product Talk LLC.
 - Google PAIR (People + AI Research Guidebook): [https://pair.withgoogle.com/guidebook](https://pair.withgoogle.com/guidebook)
 - Rob Fitzpatrick, *The Mom Test: How to talk to customers & learn if your business is a good idea when everyone is lying to you*.
+
