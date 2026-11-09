@@ -6,11 +6,11 @@
 
 ## 1. Thông tin học viên
 
-- Họ tên:
-- MSSV:
+- Họ tên: Nguyễn Xuân Dương
+- MSSV: 2A202603955
 - Email trường (không bắt buộc, repo có thể để public):
-- Tên nhóm:
-- Link repo nhóm:
+- Tên nhóm: NhomMTGD
+- Link repo nhóm: https://github.com/TDM414/L3B--DAY02-NhomMTGD-DiscoveryProblemFraming
 
 ---
 
