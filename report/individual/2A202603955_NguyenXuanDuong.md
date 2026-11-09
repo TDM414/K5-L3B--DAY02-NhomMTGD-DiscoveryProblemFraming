@@ -1,6 +1,6 @@
 # Báo cáo cá nhân — 2A202603955_NguyenXuanDuong
 
-**Nhân vật:** Dương, sinh viên năm cuối ngành AI tại trường Đại học Vin, sử dụng Google Drive, Google Classroom, Discord và Zalo. Hằng tuần, ai đó phải quản lý lịch học, theo dõi deadline bài tập, tìm kiếm tài liệu từ nhiều nguồn, phối hợp làm bài tập nhóm và thực hiện nghiên cứu khoa học.
+**Nhân vật:** Dương, sinh viên năm cuối ngành AI tại trường Đại học Vin, sử dụng Google Drive, LMS, Discord và Zalo. Hằng tuần, ai đó phải quản lý lịch học, theo dõi deadline bài tập, tìm kiếm tài liệu từ nhiều nguồn, phối hợp làm bài tập nhóm và thực hiện nghiên cứu khoa học.
 
 ## 1. Thông tin học viên
 
