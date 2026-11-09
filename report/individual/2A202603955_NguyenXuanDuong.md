@@ -120,9 +120,9 @@ Tổng thời gian: 100 phút.
 
 ### Card muốn pitch nhất
 
-- Card số:
-- Vì sao:
-- Câu hỏi muốn nhóm phản biện:
+- Card số: #1 – Tìm kiếm và tổng hợp tài liệu học tập.
+- Vì sao: Đây là vấn đề thường xuyên gặp phải khi ôn thi và nghiên cứu khoa học. Việc tìm kiếm, đọc và tổng hợp nhiều tài liệu tốn thời gian, ảnh hưởng đến hiệu quả học tập. AI có tiềm năng hỗ trợ giải quyết vấn đề này.
+- Câu hỏi muốn nhóm phản biện: Liệu việc sử dụng AI để đọc và tổng hợp tài liệu có thực sự tiết kiệm thời gian và đảm bảo độ chính xác không?
 
 ### AI đã phản biện card thế nào
 
