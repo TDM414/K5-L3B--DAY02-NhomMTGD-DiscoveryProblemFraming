@@ -1,9 +1,5 @@
 # Báo cáo cá nhân — 2A202603955_NguyenXuanDuong
 
-> Đổi tên file theo quy tắc `MSSV_HoTen.md`, ví dụ `20241234_NguyenVanAn.md` (MSSV trước, dấu `_`, họ tên viết liền không dấu). Sửa cả dòng tiêu đề phía trên cho khớp.
-> Template chi tiết và prompt mẫu cho từng mục: [docs/01-worksheet.md](../../docs/01-worksheet.md).
-> Mỗi thành viên một file trong `report/individual/` trên repo nhóm: copy template này thành file mới, điền, rồi commit bằng tài khoản GitHub của bạn. Không viết hộ người khác.
-
 **Nhân vật:** Dương, sinh viên năm cuối ngành AI tại trường Đại học Vin, sử dụng Google Drive, Google Classroom, Discord và Zalo. Hằng tuần, ai đó phải quản lý lịch học, theo dõi deadline bài tập, tìm kiếm tài liệu từ nhiều nguồn, phối hợp làm bài tập nhóm và thực hiện nghiên cứu khoa học.
 
 ## 1. Thông tin học viên
