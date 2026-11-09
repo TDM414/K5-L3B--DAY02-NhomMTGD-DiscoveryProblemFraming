@@ -128,8 +128,10 @@ Tổng thời gian: 100 phút.
 
 | Điểm yếu AI chỉ ra | Đồng ý? | Đã sửa gì |
 |---|---|---|
-| | | |
-
+| Chưa có số liệu thực tế về thời gian đọc và tổng hợp tài liệu. | Có | Bổ sung thời gian ước tính và cần kiểm chứng qua phỏng vấn. |
+| Chưa xác định rõ đối tượng gặp vấn đề nhiều nhất. | Có | Thu hẹp đối tượng thành sinh viên làm nghiên cứu khoa học và bài tập lớn. |
+| AI tóm tắt tài liệu có thể bỏ sót thông tin quan trọng. | Có | Bổ sung bước kiểm tra lại nội dung và đối chiếu với tài liệu gốc. |
+| Đã có nhiều công cụ hỗ trợ như Google Scholar, Zotero. | Có | Làm rõ điểm khác biệt là khả năng tổng hợp thông tin từ nhiều tài liệu. |
 ---
 
 ## 4. Tôi đã tham gia phần nào (CP3 → CP7)
